@@ -1,5 +1,5 @@
 /*    @khaledkamr 
-         @End          
+       @End          
 */
 //header
 #include <bits/stdc++.h>
