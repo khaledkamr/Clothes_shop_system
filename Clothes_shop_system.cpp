@@ -51,7 +51,7 @@ M:
     cout << "\t\t\t\t                                       \n";
     cout << "\t\t***************\n";
     cout << "\t\t\t\t                                           \n";
-    cout << "\t\t| Selcet Any Of The Following  |\n";
+    cout << "\t\t| Select Any Of The Following  |\n";
     cout << "\t\t\t\t                   \n";
     cout << "\t\t  1)Employee   |<==\n";
     cout << "\t\t\t\t                   \n";
@@ -73,15 +73,12 @@ M:
         if (username == "a" && password == "a")
         {
             admin();
-
         }
         else
         {
             cout << "Username or Password is incorrect ";
         }
         break;
-
-
     case 2:
     {
         customer();
@@ -89,11 +86,10 @@ M:
     case 3:
     {
         exit(0);
-
     }
     default:
     {
-        cout << "Selcet from the given options";
+        cout << "Select from the given options";
     }
     }
     goto M;
@@ -105,7 +101,7 @@ M:
     cout << "\n\n*********";
     cout << "\n\n\n\t\t\t Employee Menu";
     cout << "\n\t\t\t                         ";
-    cout << "\n\t\t\t|Selcet Any Of The Following   |==";
+    cout << "\n\t\t\t|Select Any Of The Following   |==";
     cout << "\n\t\t\t                         ";
     cout << "\n\t\t\t|1)Add the product   |<==";
     cout << "\n\t\t\t                         ";
@@ -132,7 +128,7 @@ M:
         menu();
         break;
     default:
-        cout << "Selcet from the given options";
+        cout << "Select from the given options";
     }
     goto M;
 }
@@ -145,7 +141,7 @@ M:
     cout << "\t\t\t Customer \n";
     cout << "\t\t\t ******** \n";
     cout << "                            \n";
-    cout << "\t\t\t Selcet Any Of The Following |==\n";
+    cout << "\t\t\t Select Any Of The Following |==\n";
     cout << "                            \n";
     cout << "\t\t\t 1) Buy product   |<==\n";
     cout << "                            \n";
@@ -166,7 +162,7 @@ M:
         menu();
         break;
     default:
-        cout << "Selcet from the given options";
+        cout << "Select from the given options";
     }
     goto M;
 }
