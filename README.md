@@ -28,10 +28,3 @@ This project is a console-based Clothes Shop Management System developed in C++.
 - The project uses simple console I/O for interaction.
 - Ensure that `database.txt` is in the same directory as the executable for the file handling operations to work correctly.
 
-## Future Enhancements
-- Implement GUI for a more user-friendly interface.
-- Add user authentication for customers.
-- Enhance error handling and input validation.
-- Implement a database for more efficient data management.
-
-This project serves as a fundamental system for managing a clothing store's operations, providing basic functionalities to handle inventory, customer orders, and product management.
